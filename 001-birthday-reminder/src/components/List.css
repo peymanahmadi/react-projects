@@ -1,0 +1,30 @@
+.list-form {
+  background: var(--color-white);
+  margin: 3rem auto;
+  padding: 1.5rem 2rem;
+  width: 90vw;
+  max-width: var(--max-width);
+  max-width: var(--fixed-width);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.list-form h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.list-form button {
+  color: var(--color-white);
+  background: var(--color-pink);
+  width: 100%;
+  padding: 0.5rem 0;
+  font: inherit;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  border-color: transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
