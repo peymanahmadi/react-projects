@@ -1,9 +1,8 @@
 .list-form {
   background: var(--color-white);
-  margin: 3rem auto;
+  margin: 5rem 0;
   padding: 1.5rem 2rem;
   width: 90vw;
-  max-width: var(--max-width);
   max-width: var(--fixed-width);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
@@ -11,7 +10,7 @@
   flex-direction: column;
 }
 
-.list-form h1 {
+.list-form h3 {
   margin-bottom: 2rem;
   text-align: center;
 }

@@ -1,12 +1,12 @@
 .person {
-  align-items: center;
-  margin-bottom: 1.5rem;
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
 }
 
-.person h2 {
+.person h4 {
   margin-bottom: 0.35rem;
 }
 
@@ -15,4 +15,22 @@
   height: 75px;
   object-fit: cover;
   border-radius: 50%;
+  box-shadow: var(--light-shadow);
 }
+
+.person p {
+  margin-bottom: 0;
+}
+
+/* Grid Layout: The CSS Grid Layout Module offers a grid-based layout system,
+with rows and columns, making it easier to design web pages without having to use floats and positioning
+
+Grid Elements: S grid layout consists of a parent element, with one or more child elements
+
+All direct children of the grid container automatically become grid items.
+
+source: w3school.com*/
+
+/* 
+grid-template-columns: Specifies the number (and the widths) of columns in a grid layout
+*/
