@@ -1,0 +1,47 @@
+.tour-container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 860px;
+  margin: 1rem auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tour-container .name-price {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tour-container .name-price h4 {
+  background: gold;
+}
+
+.tour-container p {
+  padding: 2rem;
+}
+
+.tour-container button {
+  font: inherit;
+  margin: 2rem;
+  padding: 0.5rem 0;
+  /* align-content: center; */
+  background: white;
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 3px;
+  width: 30%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}

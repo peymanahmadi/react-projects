@@ -1,0 +1,101 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Varibales */
+
+:root {
+  --color-white: #fff;
+  --color-pink: #f28ab2;
+  --color-darktext: #333638;
+  --color-greytext: grey;
+
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  --fixed-width: 450px;
+  --max-width: 1170px;
+  --radius: 0.25rem;
+}
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: azure;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.875rem;
+  color: var(--color-darktext);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+p {
+  color: var(--color-greytext);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 3rem auto;
+}
+
+.tour-container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 1rem auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tour-container .name-price {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tour-container .name-price h4 {
+  background: gold;
+}
+
+.tour-container p {
+  padding: 2rem;
+}
+
+.tour-container button {
+  font: inherit;
+  margin: 2rem;
+  padding: 0.5rem 0;
+  /* align-content: center; */
+  background: white;
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 3px;
+  width: 30%;
+  cursor: pointer;
+}
+
+img {
+  width: 800px;
+  border-radius: 5px 5px 0 0;
+}
