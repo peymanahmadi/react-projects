@@ -9,11 +9,22 @@
   --color-darktext: #333638;
   --color-greytext: grey;
 
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+
+  --clr-main: hsl(205, 78%, 60%);
+  --clr-light-main: hsl(205, 100%, 96%);
+
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
   --fixed-width: 450px;
   --max-width: 1170px;
   --radius: 0.25rem;
+
+  --transition: all 0.3s linear;
 }
 
 /* Global Styles */
@@ -46,6 +57,7 @@ p {
 }
 
 .container {
+  /* min-height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,46 +68,13 @@ h1 {
   margin: 3rem auto;
 }
 
-.tour-container {
-  background: white;
-  display: flex;
-  flex-direction: column;
-  width: 800px;
-  margin: 1rem auto;
-  border-radius: 5px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-}
-
-.tour-container .name-price {
-  padding: 2rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.tour-container .name-price h4 {
-  background: gold;
-}
-
-.tour-container p {
-  padding: 2rem;
-}
-
-.tour-container button {
-  font: inherit;
-  margin: 2rem;
-  padding: 0.5rem 0;
-  /* align-content: center; */
-  background: white;
-  color: brown;
-  border: 1px solid brown;
-  border-radius: 3px;
-  width: 30%;
+.btn {
+  background: var(--clr-light-main);
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  text-transform: capitalize;
+  color: var(--clr-main);
+  border-color: transparent;
   cursor: pointer;
-}
-
-img {
-  width: 800px;
-  border-radius: 5px 5px 0 0;
 }
